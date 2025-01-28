@@ -47,7 +47,7 @@ public class Server {
         clients.remove(client);
     }
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        Server server = new Server(1234);
     }
 }
